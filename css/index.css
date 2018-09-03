@@ -1,0 +1,343 @@
+@charset "utf-8";
+body,div,p,ul,ol,li,dl,dt,dd,table,tr,td,form,h1,h2,h3,h4,h5,h6,hr,fieldset,input,img{
+	margin:0;
+	padding:0;
+	outline: none;
+}
+html{
+    font-size: 26.67vw;
+}
+html,body{
+    height: 100%;
+    font-family: "微软雅黑",Arial;
+    background: #f2f4f6;
+}
+img{
+    display: block;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+/* header */
+header{
+    width: 100%;
+    height:0.44rem;
+    background: #ff421e;
+    display: flex;
+    justify-content: space-around;
+    line-height: 0.44rem;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+header i{
+    display: block;
+}
+.icon-message{
+    color: #ffece7;
+    font-size: 0.2rem;
+}
+.header_center{
+    display: flex;
+    height: 0.3rem;
+    margin-top: 0.07rem;
+}
+.header_center input{
+    width: 2.83rem;
+    text-indent: 0.7rem;
+    border: 0;
+    border-radius: 0.06rem;
+    background: #ff6c4c; 
+    color: #ffb2a2;
+    height: 0.3rem;
+}
+.header_center span{
+    font-size: 0.18rem;
+    color: #fff;
+    text-indent: -2.52rem;
+}
+.header_center a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.icon-xiazai5{
+    color: #ffe2dc;
+    font-size: 0.16rem;
+    text-indent: -2.95rem;
+}
+.icon-saoyisao{
+    text-indent: -0.44rem;
+    color: #ffd5cb;
+    font-size: 0.18rem;
+}
+.icon-lisimoshicaidandaohang{
+    color: #fffdfd;
+    font-size: 0.18rem;
+}
+
+/* section */
+section{
+    width: 100%;
+    padding-top:0.44rem;
+    padding-bottom: 0.50rem; 
+}
+.banner{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 0.12rem;
+    background: #fff;
+}
+.banner_left{
+    display: flex;
+}
+.banner_left img{
+    width: 0.42rem;
+    height: 0.42rem;
+    margin-right: 0.08rem;
+}
+.banner_left h4{
+    font-weight: 100;
+    font-size: 0.14rem;
+    color: #292929;
+    margin-top: 0.02rem;
+    line-height: 0.2rem;
+}
+.banner_left p{
+    font-size: 0.12rem;
+    color: #a2a2a2;
+    line-height: 0.16rem;
+}
+.banner_right{
+    font-size: 0.12rem;
+    color: #343434;
+    border: 1px solid #7c7c7c;
+    border-radius: 0.1rem;
+    width: 0.72rem;
+    height: 0.2rem;
+    font-size: 0.11rem;
+    text-align: center;
+    line-height: 0.2rem;
+}
+
+.imgs{
+    width: 100%;
+    font-size: 0.12rem;
+    display: flex;
+    padding-top: 0.12rem;
+    background: #fff;
+}
+.imgs a{
+    color: #333333;
+}
+.images{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgs img{
+    padding-bottom: 0.09rem;
+    background: #fff;
+}
+
+.section_banner{
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    padding: 0.13rem 0 0.08rem;
+}
+
+/* 轮播图 */
+.swiper-container{
+    float: left;
+    width: 100%;
+    height: 0.9rem;
+    background: #fff;
+}
+.swiper-wrapper{
+    width: 100%;
+    height: 0.9rem;
+}
+.swiper-slide{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.sec_one{
+    width: 100%;
+    display: flex;
+    padding-top: 0.13rem;
+    background: #fff;
+}
+.sec_one_1{
+    width: 25%;
+    display: flex;
+}
+.sec_one_1 ul{
+    margin: 0 0.12rem;
+}
+.sec_one_1 h4{
+    font-weight: 100;
+    font-size: 0.16rem;
+    color: #000;
+}
+.sec_one_1 p{
+    font-size: 0.12rem;
+    color: #c5c5c5;
+    line-height: 0.2rem;
+}
+.sec_one_1 img{
+    width: 100%;
+    margin-top: 0.03rem;
+}
+.sec_one_1 span{
+    display: block;
+    width: 1px;
+    height: 1.14rem;
+    background: url(../img/pic17.png) repeat-y;
+}
+
+.section_two{
+    width: 100%;
+    height: 0.4rem;
+    margin-top: 0.08rem;
+    background: #fff;
+    display: flex;
+    overflow-x: scroll;
+}
+.section_two a{
+    text-decoration: none;
+    font-size: 0.16rem;
+    color: #131313;
+    flex-shrink: 0;
+    margin: 0 0.12rem;
+    line-height: 0.4rem;
+}
+.section_two .active{
+    color: #ff6e7a;
+    border-bottom: 2px solid #ff6e7a;
+}
+.section_two a:hover{
+    color: #ff6e7a;
+    border-bottom: 2px solid #ff6e7a;
+}
+/* #div1{
+    top:5.18rem;
+    position:absolute;
+} */
+.section_three{
+    width: 100%;
+    background: #fff;
+    margin-top: 0.02rem;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0.1rem;
+    z-index: 999;
+}
+.section_three a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section_three h4{
+    font-weight: 100;
+    font-size: 0.16rem;
+    color: #272626;
+    width: 0.6rem;
+    text-align: center;
+    line-height: 0.18rem;
+}
+.section_three .focus{
+    color: #fff;
+    border-radius: 0.08rem;
+    background: #ff1a1a;
+}
+.section_three a:hover h4{
+    color: #fff;
+    border-radius: 0.08rem;
+    background: #ff1a1a;
+}
+.section_three p{
+    font-size: 0.12rem;
+    color: #828383;
+    padding-top: 0.03rem;
+}
+.section_three .active{
+    color: #ff1a1a;
+}
+.section_three a:hover p{
+    color: #ff1a1a;
+}
+.section_four{
+    width: 100%;
+    background: #fff;
+    padding-top: 0.1rem;
+}
+.section_four_con{
+    padding-left: 0.12rem;
+}
+.section_four_con a{
+    text-decoration: none;
+    display: block;
+}
+.section_four_con h4{
+    font-weight: 100;
+    font-size: 0.16rem;
+    color: #181818;
+    line-height: 0.39rem;
+}
+.section_four_con p{
+   font-size: 0.14rem;
+   color: #9b9b9b;
+}
+.section_four_con span{
+    font-size: 0.18rem;
+    color: #ff0000;
+    display: block;
+    margin-right: 0.06rem;
+}
+.section_four_con a:last-of-type{
+    display: flex;
+    line-height: 0.35rem;
+    position: relative;
+}
+.section_four_con b{
+    display: block;
+    width: 0.63rem;
+    height: 0.2rem;
+    line-height: 0.2rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.12rem;
+    font-weight: 100;
+    color: #141414;
+    border: 1px solid #a4a4a4;
+    border-radius: 0.12rem;
+    position: absolute;
+    right:0.12rem;
+    bottom:0.05rem;
+}
+
+
+
+/* 分类 */
+
+                               

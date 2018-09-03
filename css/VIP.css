@@ -1,0 +1,259 @@
+@charset "utf-8";
+body,div,p,ul,ol,li,dl,dt,dd,table,tr,td,form,h1,h2,h3,h4,h5,h6,hr,fieldset,input,img {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html {
+    font-size: 26.67vw;
+}
+
+html,body {
+    height: 100%;
+    font-family: "微软雅黑", Arial;
+    background: #f2f4f6;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    display: block;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+/* header */
+header{
+    width: 100%;
+    position: relative;
+}
+.v_bg{
+    width: 100%;
+    height: 2.35rem;
+    background: url(../img/v1.png) center center;
+    background-size: cover;
+}
+header a:last-of-type{
+    font-size: 0.12rem;
+    color: #fff;
+    line-height: 0.39rem;
+    position: absolute;
+    right: 0.12rem;
+    top: 0px;
+}
+section{
+    width: 100%;   
+    padding-bottom: 0.5rem;
+}
+.section_top{
+    display: flex;
+    background: #fff;
+    padding-left: 0.12rem;
+    padding-top: 0.12rem;
+}
+.section_top img{
+    width: 0.18rem;
+    height: 0.18rem;
+    margin-right: 0.06rem;
+    background: #fff;
+}
+.section_top h4{
+    font-weight: 100;
+    font-size: 0.16rem;
+    color: #c06234;
+}
+.section_one{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    position: relative;
+}
+.section_one input{
+    width: 3.43rem;
+    height: 0.49rem;
+    background: #ff4e0a;
+    font-size: 0.16rem;
+    color: #fff;
+    border: 0;
+    border-radius: 0.2rem;
+    margin: 0.22rem auto 0;
+}
+.section_o_t{
+    position: absolute;
+    right: 0.78rem;
+    top: 0.38rem;
+}
+.section_o_t p{
+    text-decoration: line-through;
+    font-size: 0.14rem;
+    color: #fff5f4;
+}
+.section_o_t span{
+    display: block;
+    width: 0.57rem;
+    height: 0.19rem;
+    line-height: 0.19rem;
+    background: #ffdbb8;
+    font-size: 0.12rem;
+    color: #9e4a26;
+    text-align: center;
+    border-radius: 0.03rem;
+    position: absolute;
+    top: -0.26rem;
+    right: -0.04rem;
+}
+.section_o_t span img{
+    position: absolute;
+    top: 0.19rem;
+    right: 0.38rem;
+}
+.section_con{
+    padding-top: 0.26rem;
+}
+.section_cont{
+    width: 100%;
+    font-size: 0.14rem;
+    padding-top: 0.03rem;
+    padding-bottom: 0.24rem;
+    background: #fff;   
+}
+.section_d{
+    height: 0.4rem;
+    margin: 0 0.89rem;
+    line-height: 0.4rem;
+}
+.section_d a{
+    color: #181818;
+    float: left;
+}
+.section_d h4{
+    font-weight: 100;
+    color: #ff1515;
+    float: left;
+}
+.section_slide{
+    width: 100%;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.section_slide a{
+    width:33%;
+    flex-shrink: 0;
+    margin:0 0.12rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.section_slide a img{
+    width: 100%;
+}
+.section_slide a h4{
+    font-weight: 100;
+    font-size: 0.13rem;
+    width: 1.24rem;
+    height: 0.28rem;
+    line-height: 0.28rem;
+    color: #fff;
+    background: url(../img/v6.png) repeat;
+    border-radius: 0.12rem;
+    margin-top: -0.03rem;
+}
+.section_slide a p{
+    width: 100%;
+    color: #1d1d1d;
+    font-size: 0.13rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 0.3rem;  
+}
+.section_bot{
+    width: 100%;
+}
+.section_bg{
+    margin: 0.15rem 0.66rem;
+}
+.section_bg img{
+    width: 100%;
+}
+.section_bot_img{
+    width: 100%;
+    display: flex;
+}
+.section_bot_img a{
+    font-size: 0.12rem;
+    margin-bottom: 0.04rem;
+    padding-bottom: 0.05rem;
+    background: #fff;
+}
+.section_bot_img h4{
+    font-weight: 100;
+    font-size: 0.16rem;
+    color: #040404;
+}
+.section_bot_img span{
+    display: flex;
+    color: #bf6133;
+    font-size: 0.16rem;
+}
+.section_bot_img span p{
+    font-size: 0.14rem;
+    color: #292929;
+}
+.sec-left{
+    width: 50%;
+    margin-right: 0.02rem;
+}
+.sec-left a img{
+    width: 100%;
+}
+.sec-left h4{
+    padding: 0 0.18rem 0 0.12rem;
+    text-indent:0.09rem;
+    font-size: 0.13rem;
+    line-height: 0.18rem;
+}
+.sec-left span{
+    padding-left: 0.1rem;
+    line-height: 0.36rem;
+    font-size: 0.2rem;
+}
+.sec-left span p{
+    font-size: 0.1rem;
+    margin-left: 0.05rem;
+    margin-top: 0.05rem;
+    line-height: 0.31rem;
+}
+.sec-right{
+    width: 50%;
+    margin-left: 0.02rem;
+}
+.sec-right a img{
+    width: 100%;
+}
+.sec-right h4{
+    padding: 0 0.18rem 0 0.12rem;
+    text-indent:0.09rem;
+    font-size: 0.13rem;
+    line-height: 0.18rem;
+}
+.sec-right span{
+    padding-left: 0.1rem;
+    line-height: 0.36rem;
+    font-size: 0.2rem;
+}
+.sec-right span p{
+    font-size: 0.1rem;
+    margin-left: 0.05rem;
+    margin-top: 0.05rem;
+    line-height: 0.31rem;
+}
